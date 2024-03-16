@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Routes, Route } from "react-router-dom"
+import { Header } from "./Header"
+import { Sports } from "./pages/Sports"
+import { Plays } from "./pages/Plays"
+import { Movies } from "./pages/Movies"
+import { Events } from "./pages/Events"
+import { Activities } from "./pages/Activities"
+import { Stream } from "./pages/Stream"
+import { Footer } from "./Footer/Footer"
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <div className='bg-light'>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Movies />}></Route>
+                    <Route path="/activities" element={<Activities />}></Route>
+                    <Route path="/events" element={<Events />}></Route>
+                    <Route path="/plays" element={<Plays />}></Route>
+                    <Route path="/sports" element={<Sports />}></Route>
+                    <Route path="/stream" element={<Stream />}></Route>
+                    <Route path="*" element={<h4>Page Not Found</h4>}></Route>
+                </Routes>
+                <Footer />
+                
+            </div>
+
+
+        </>
+    )
 }
 
-export default App;
+export default App

@@ -1,0 +1,11 @@
+.d_service_box{
+        opacity: 0.5;
+    }
+    
+    .d_service_box:hover{
+        opacity: 1;
+    }
+    
+    .d_span_link span{
+        font-size: 11px;
+    }

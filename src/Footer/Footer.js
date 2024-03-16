@@ -1,23 +1,22 @@
 import React from 'react'
 import "./footer.css"
-import Navigation from './Navigation'
+import { Navigations } from './Navigations'
 import { Descripation } from './Descripation'
-import { Services } from './Services'
-import { SocialLink } from './SocialLink'
 import { ContactToday } from './ContactToday'
-import { MenuLink } from './MenuLink'
-
+import { Service } from './Service'
+import { Menulinks } from './Menulinks'
+import { SocialLink } from './SocialLink'
 
 
 export const Footer = () => {
   return (
     <footer>
-      <Navigation />
+      <Navigations />
       <Descripation />
-      <Services />
-      <SocialLink />
       <ContactToday />
-      <MenuLink />
+      <Service />
+      <Menulinks />
+      <SocialLink />
     </footer>
   )
 }

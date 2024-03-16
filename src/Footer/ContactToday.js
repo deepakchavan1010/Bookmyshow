@@ -13,7 +13,7 @@ export const ContactToday = () => {
             </div>
           </div>
           <div className="col-12 col-md-2  text-end p-0 ms-auto">
-            <button className='d_bg_red_light_color text-white p-3 py-2 border-0 rounded'>Contact Today</button>
+            <button className='d_red_light_color text-white p-3 py-2 border-0 rounded'>Contact Today</button>
           </div>
         </div>
       </div>

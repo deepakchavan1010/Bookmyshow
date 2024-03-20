@@ -33,7 +33,7 @@ export const Header = () => {
                                     <div className='d-flex gap-2'>
                                         <span>selu</span> <IoChevronDownSharp color="#6B7188" className="mt-1" />
                                     </div>
-                                    <button type="button" class="text-white btn btn-sm d_red_light_color px-3 d_sign_btn">Sign in</button>
+                                    <button type="button" className="text-white btn btn-sm d_red_light_color px-3 d_sign_btn">Sign in</button>
                                 </div>
                                 <div className="col-12 col-md-2">
                                     <RxHamburgerMenu size={25} />
@@ -68,7 +68,7 @@ export const Header = () => {
                                     <span>Offers</span>
                                 </li>
                                 <li>
-                                    <span>Gift Cards</span>
+                                    <span>GIft card</span>
                                 </li>
                             </ul>
                         </div>

@@ -5,8 +5,7 @@ import { Descripation } from './Descripation'
 import { ContactToday } from './ContactToday'
 import { Service } from './Service'
 import { Menulinks } from './Menulinks'
-import { SocialLink } from './SocialLink'
-
+import { SocialLinks } from './SocialLink'
 
 export const Footer = () => {
   return (
@@ -16,7 +15,7 @@ export const Footer = () => {
       <ContactToday />
       <Service />
       <Menulinks />
-      <SocialLink />
+    <SocialLinks />
     </footer>
   )
 }

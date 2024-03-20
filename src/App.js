@@ -1,8 +1,9 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Routes, Route } from "react-router-dom"
 import { Header } from "./Header"
 import { Sports } from "./pages/Sports"
 import { Plays } from "./pages/Plays"
-import { Movies } from "./pages/Movies"
+import { Movies } from "./pages/Movies/Movies"
 import { Events } from "./pages/Events"
 import { Activities } from "./pages/Activities"
 import { Stream } from "./pages/Stream"

@@ -9,3 +9,49 @@
     .d_span_link span{
         font-size: 11px;
     }
+    .d_span_link span{
+        font-size: 11px;
+        padding: 1px 3px;
+    }
+ .d_bookmyshow_border{
+    border-top:1px solid #fff;
+    width: 96%;
+    margin: auto;
+    padding: 10px 0px;
+    
+ }
+ 
+.d_bottom_logo {
+    top: -80% !important;
+}
+
+footer .d_icons {
+    width: 35px;
+    height: 35px;
+    background: #868686;
+    color: #333338;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer .d_icons:hover {
+    background: #fff;
+}
+
+.d_copyright {
+    width: 97%;
+    margin:  auto;
+    padding: 15px 0px;
+    color: #89888b;
+    
+}
+
+.d_copyright p {
+    margin: 0;
+}
+ 
+ 

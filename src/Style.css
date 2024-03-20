@@ -2,6 +2,9 @@
 .d_red_light_color{
     background: #F84464;
 }
+.d_text_light_grey_colour{
+  color: #89888b;
+}
 h1,
 h2,
 h3,
@@ -12,11 +15,25 @@ h6 {
 }
 .d_sign_btn:hover {
     color: #F84464 !important;
-    border: 1px solid #F84464 !important;
+    border: 1px solid #e65c75 !important;
     background: none !important;
+}
+.d_red_light_border{
+  border: 1px solid #d12f4d !important;
 }
 body {
     font-family: "Roboto", sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.d_bg_red_light_color {
+  background: #F84464;
+}
+
+.d_text_red_light_color {
+  color: #F84464;
 }
 
 .roboto-thin {
@@ -138,6 +155,21 @@ input::placeholder {
 .d_h15 {
   font-size: 15px;
 }
+.d_h16 {
+  font-size: 16px;
+}
+.d_h17 {
+  font-size: 17px;
+}
+.d_h18 {
+  font-size: 18px;
+}
+.d_h19 {
+  font-size: 19px;
+}
+.d_h20 {
+  font-size: 20px;
+}
 
 /* backgrounds  */
 .d_bg_dark{
@@ -145,4 +177,16 @@ input::placeholder {
 }
 .d_bg_dark_light{
   background: #404043;
+}
+.d_bg_dark_light2{
+  background: #313035;
+}
+.row{
+  margin: 0;
+}
+.d_cursor_pointer{
+  cursor: pointer;
+}
+.d_user_select_none{
+  user-select: none;
 }

@@ -1,0 +1,21 @@
+.control-arrow {
+        background: rgba(0, 0, 0, 0.449) !important;
+        height: 35px;
+        width: 40px;
+        margin: auto !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .control-prev{
+        margin-left: 9px !important;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        
+    }
+    .control-next{
+        margin-right: 9px !important;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }

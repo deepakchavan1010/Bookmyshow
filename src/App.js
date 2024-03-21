@@ -6,7 +6,7 @@ import { Plays } from "./pages/Plays"
 import { Movies } from "./pages/Movies/Movies"
 import { Events } from "./pages/Events"
 import { Activities } from "./pages/Activities"
-import { Stream } from "./pages/Stream"
+import { Stream } from "./pages/Stream/Stream"
 import { Footer } from "./Footer/Footer"
 function App() {
     return (

@@ -6,7 +6,7 @@ import { AppliedFilters } from "../../Components/Filter/AppliedFilters";
 import { Button } from "../../Components/Buttons/Button";
 import { HeadingBanner } from "../../Components/Banners/HeadingBanner";
 import { MyCard } from "../../Components/Card/MyCard";
-const carouselData = ["banner1.avif","img1.avif"];
+const carouselData = ["banner1.avif","img1.avif","banner3.avif"];
 
 const moviesData = [
     {
@@ -26,6 +26,42 @@ const moviesData = [
         movieCertificate: "UA",
         language: "Marathi",
         src: "unn savli img.avif",
+    },
+    {
+        movieName: "Teri Baton Mein Aisa Uljha Jiya",
+        movieCertificate: "UA",
+        language: "hindi",
+        src: "teri bato main.avif",
+    },
+    {
+        movieName: "Ole Aale",
+        movieCertificate: "U",
+        language: "Marathi",
+        src: "ole ole.avif",
+    },
+    {
+        movieName: "Bastar: The Naxal Story",
+        movieCertificate: "A",
+        language: "hindi,telugu",
+        src: "Bastar.avif",
+    },
+    {
+        movieName: "Laapataa Ladies",
+        movieCertificate: "UA",
+        language: "hindi",
+        src: "Laapata.avif",
+    },
+    {
+        movieName: "Kung Fu Panda 4",
+        movieCertificate: "U",
+        language: "hindi,english",
+        src: "Kungfupandabanner.avif",
+    },
+    {
+        movieName: "Article 370",
+        movieCertificate: "UA",
+        language: "hindi",
+        src: "Artical370banner.avif",
     },
 ];
 

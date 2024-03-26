@@ -2,8 +2,8 @@ import React from "react";
 import "./Stream.css";
 import { Carousel } from "react-responsive-carousel";
 import { PromotedBanner } from "./PromotedBanner";
-
-const StreamData=[
+import { MultiMoviesCard } from "../../Components/MultiMoviesCard/MultiMoviesCard";
+const Data=[
   {
     descripation:"A clumsy panda bear named Po becomes an unlikely kung fu hero when a treacherous enemy spreads chaos throughout the countryside.",
     slug:"1h 32m . Adventure, Animation, Comedy . U",
@@ -14,6 +14,7 @@ const StreamData=[
     path:"url(Promoted/et00001563-flwjdhzdjp-horizontal_poster_still.jpg)"
   },
   {
+    isPremiere: true,
     descripation:"A clumsy panda bear named Po becomes an unlikely kung fu hero when a treacherous enemy spreads chaos throughout the countryside.",
     slug:"2h 8m • Crime, Mystery, Thriller • UA",
     language:"Hindi",
@@ -32,6 +33,7 @@ const StreamData=[
     path:"url(Promoted/et00122526-eqnsuankcp-horizontal_poster_still.jpg)"
   },
   {
+    isPremiere: true,
     descripation:"Bookmyshow Stream Runtime: 3h 3 mins The film is based on the Pulitzer Prize-winning book American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer by Kal Bird and the late Martin J. Sherwin.",
     slug:"3h 10m*Biography,Drama,Historical*UA",
     language:"English",
@@ -52,13 +54,73 @@ const StreamData=[
   
 ]
 export const Stream = () => {
+  const moviesdata=[
+    {
+    title:"Premiere of the week",
+    isShowAll:"true",
+    srcData:[
+        "Stream/et00390762-ndlazdqnzr-portrait.avif",
+        "Stream/et00064456-nsmmdnjxhu-portrait.avif",
+        "Stream/et00368036-sspvubuyuz-portrait.avif",
+        "Stream/et00136633-jhwzvneqzj-portrait.avif",
+        "Stream/et00368036-sspvubuyuz-portrait (1).avif",
+        "Stream/et00376609-waxyfawybf-portrait.avif",
+        "Stream/et00390164-xekrexsdbf-portrait.avif", 
+    ],
+  },
+  {
+    title:"new on stream",
+    isShowAll:"true",
+    srcData:[
+        "Stream/et00390164-xekrexsdbf-portrait.avif",
+        "Stream/et00374217-rletlcmmwb-portrait.avif",
+        "Stream/et00136633-jhwzvneqzj-portrait.avif",
+        "Stream/et00045012-lcuwrczste-portrait.avif",
+        "Stream/et00368036-sspvubuyuz-portrait (1).avif",
+        "Stream/et00136633-jhwzvneqzj-portrait.avif",
+        "Stream/et00045012-lcuwrczste-portrait.avif",
+    ],
+  },
+  {
+    title:"top 10 tv shows",
+    isShowAll:"true",
+    srcData:[
+        "Stream/et00045012-lcuwrczste-portrait.avif",
+        "Stream/et00064456-nsmmdnjxhu-portrait.avif",
+        "Stream/et00136633-jhwzvneqzj-portrait.avif",
+        "Stream/et00368036-sspvubuyuz-portrait (1).avif",
+        "Stream/et00374217-rletlcmmwb-portrait.avif",
+        "Stream/et00368036-sspvubuyuz-portrait (1).avif",
+    ],
+    book:"true",
+  },
+  {
+    title:"upcoming movies",
+    isShowAll:"true",
+    srcData:[
+        "Stream/upcomg2.avif",
+        "Stream/upcomig.avif",
+        "Stream/coming3.avif"
+    ],
+    book:"true",
+  },
+]
   return (
     <section className="d_promoted_banner">
       <Carousel  infiniteLoop autoPlay showStatus={false} className="h-100">
-        {StreamData.map((value,index)=>{
-          return <  PromotedBanner key={index} isPremiere  descripation={value.descripation}  slug={value.slug}  language={value.language} moviesname={value.moviesname} title ={value.title}  posterpath={value.posterpath}  path={value.path}/>
+        {Data.map((value,index)=>{
+          return <  PromotedBanner key={index} 
+          {...value}
+          />              
         })}
       </Carousel>
+     <div className="my-5 container">
+      {moviesdata.map((movies,index)=>{
+         return <MultiMoviesCard key={index}
+         {...movies}
+         />
+      })}
+     </div>
     </section>
-  );
-};
+  )
+}

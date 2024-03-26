@@ -173,6 +173,11 @@ input::placeholder {
 .d_h20 {
   font-size: 20px;
 }
+.d_sticky{
+  position: sticky;
+  height: max-content;
+  top: 0;
+}
 
 /* backgrounds  */
 .d_bg_dark{
@@ -183,6 +188,9 @@ input::placeholder {
 }
 .d_bg_dark_light2{
   background: #313035;
+}
+.d_light{
+  background: #e3e2e770;
 }
 .row{
   margin: 0;

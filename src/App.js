@@ -9,6 +9,9 @@ import { Stream } from "./pages/Stream/Stream"
 import { Footer } from "./Footer/Footer"
 import { Sports } from "./pages/Sport/Sports";
 import { Activites } from "./pages/Activite/Activities";
+import { Shows } from "./pages/Shows/Shows";
+import { Offers } from "./pages/Offers/Offers";
+
 
 function App() {
     return (
@@ -22,6 +25,8 @@ function App() {
                     <Route path="/plays" element={<Plays />}></Route>
                     <Route path="/sports" element={<Sports/>}></Route>                                                       
                     <Route path="/stream" element={<Stream />}></Route>
+                    <Route path="/offers" element={<Offers />}></Route>
+                    <Route path="/list-your-shows" element={<Shows />}></Route>
                     <Route path="*" element={<h4>Page Not Found</h4>}></Route>
                 </Routes>
                 <Footer />

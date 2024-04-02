@@ -11,6 +11,7 @@ import { Sports } from "./pages/Sport/Sports";
 import { Activites } from "./pages/Activite/Activities";
 import { Shows } from "./pages/Shows/Shows";
 import { Offers } from "./pages/Offers/Offers";
+import Corporates from "./pages/Corporate/Corporate";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/sports" element={<Sports/>}></Route>                                                       
                     <Route path="/stream" element={<Stream />}></Route>
                     <Route path="/offers" element={<Offers />}></Route>
+                    <Route path="/Corporates" element={<Corporates />}></Route>
                     <Route path="/list-your-shows" element={<Shows />}></Route>
                     <Route path="*" element={<h4>Page Not Found</h4>}></Route>
                 </Routes>

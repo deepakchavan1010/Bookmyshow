@@ -50,39 +50,24 @@
       .d_testimonials {
         margin-top: 100px;
       }
-      
-      .d_testimonials .d_img_box {
-        width: 75px;
-        height: 75px;
-      }
-      
-      .d_testimonials .d_img_box img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      
       .d_testimonials .d_testimonial_img {
-        height: 500px;
+        height: 570px;
         width: 100%;
-        /* padding: 20px; */
       }
-      
       .d_testimonials .d_testimonial_img img {
         object-fit: contain;
         height: 100%;
         width: 100%;
       }
-      
-      .d_testimonials .d_testimonial_quotes{
+      .d_testimonials .d_testimonial_quotes {
         position: absolute;
         top: -15px;
         left: 15px;
       }
-      
       .d_security{
         background-repeat: no-repeat !important;
         background-size: cover;
         background-position: center !important;
-        padding: 55px;
+        padding: 100px;
+      
       }

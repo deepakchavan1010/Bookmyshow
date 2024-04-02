@@ -1,7 +1,8 @@
 import React from "react";
-
 import { Carousel } from "./Carousel";
 import ShowsCards from "./ShowsCards";
+import Testimonials from "./Testimonials";
+
 
 function ShowsMainText({ title, desc, width = 75 }) {
     return (
@@ -114,6 +115,7 @@ export const Shows = () => {
                     </div>
                     </div>
                 </div>
+                <Testimonials/>
             </div>
         </section>       
     );

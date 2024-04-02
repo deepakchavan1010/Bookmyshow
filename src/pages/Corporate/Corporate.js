@@ -1,7 +1,21 @@
 import React from 'react'
+import { Banner } from './Banner'
+import Partner from './Partner'
+import Records from './Records'
+import TwoViewBanner from './TwoViewBanner'
 
-export const Corporate = () => {
+
+
+
+const Corporate = () => {
   return (
-    <div>Corporate</div>
+    <div>
+       <Banner />
+       <Partner />
+       <Records />
+       <TwoViewBanner />
+    </div>
   )
 }
+
+export default Corporate 

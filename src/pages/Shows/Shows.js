@@ -2,8 +2,6 @@ import React from "react";
 import { Carousel } from "./Carousel";
 import ShowsCards from "./ShowsCards";
 import Testimonials from "./Testimonials";
-
-
 function ShowsMainText({ title, desc, width = 75 }) {
     return (
         <div className="text-center">
@@ -116,7 +114,12 @@ export const Shows = () => {
                     </div>
                 </div>
                 <Testimonials/>
+                <div style={{ width: "40%", background:"url(shows img/img24.avif)"}} className="mx-auto d_security">
+                    <ShowsMainText width={100} title={"Sit back and watch your event come to life"} desc={"Events maybe all fun and games, but we take it seriously. We ensure our customer’s security so that you don’t have to."} />
+                </div>
+               
             </div>
-        </section>       
+        </section>   
+            
     );
 };

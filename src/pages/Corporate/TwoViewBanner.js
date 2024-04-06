@@ -57,7 +57,7 @@ const TwoViewBanner = () => {
             </div>
           </div>
         </div>
-      </div>
+        </div>
     );
   });
 };

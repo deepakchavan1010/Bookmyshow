@@ -2,7 +2,10 @@ import React from 'react'
 import { Banner } from './Banner'
 import Partner from './Partner'
 import Records from './Records'
+import Solutions from './Solutions'
 import TwoViewBanner from './TwoViewBanner'
+import Desc from './Desc'
+import Campaigns from './Campaigns'
 
 
 
@@ -12,8 +15,11 @@ const Corporate = () => {
     <div>
        <Banner />
        <Partner />
-       <Records />
+       <Records /> 
        <TwoViewBanner />
+       <Solutions />
+       <Desc />   
+       <Campaigns />    
     </div>
   )
 }

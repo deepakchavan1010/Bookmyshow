@@ -94,7 +94,7 @@ export const Movies = () => {
                         <div
                             key={index}
                             style={{ width: "100%", height: 300 }}
-                            className=" p-2"
+                            className="p-2"
                         >
                             <img
                                 width={"100%"}

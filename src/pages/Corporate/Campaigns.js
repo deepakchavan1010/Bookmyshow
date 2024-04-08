@@ -50,7 +50,7 @@ const Campaigns = () => {
         },
     ];
     return (
-        <div className="container">
+        <div className="container p-0">
         <div className="d_movies_carousel">
             <div className="py-4  bg-white">
                 <h6 className="ms-4 mb-2">CAMPAIGNS WE’RE PROUD OF</h6>

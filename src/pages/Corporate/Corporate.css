@@ -57,3 +57,24 @@
     align-items: center;
     margin: auto;
 }
+.d_box{
+    height: 100%;
+    width: 100%;
+}
+.d_BulkBooking{
+    height: 280px;
+    padding: 90px 50px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+
+.b_testimonials2 .b_img_box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

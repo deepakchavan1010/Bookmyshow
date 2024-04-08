@@ -114,7 +114,7 @@ export const Shows = () => {
                     </div>
                 </div>
                 <Testimonials/>
-                <div style={{ width: "40%", background:"url(shows img/img24.avif)"}} className="mx-auto d_security">
+                <div style={{ width: "40%", background:"url(https://assets-in.bmscdn.com/static/2021/06/security-imag.jpeg)"}} className="mx-auto d_security">
                     <ShowsMainText width={100} title={"Sit back and watch your event come to life"} desc={"Events maybe all fun and games, but we take it seriously. We ensure our customer’s security so that you don’t have to."} />
                 </div>
                

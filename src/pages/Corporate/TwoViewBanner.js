@@ -40,7 +40,7 @@ const TwoViewBanner = () => {
 
   return data.map(({ btnText, desc, heading, imgPath, title1 }, index) => {
     return (
-      <div className="container">
+      <div>
         <div
           key={index}
           className={`row  my-2 ${index % 2 === 0 ? "flex-row-reverse" : ""}`}

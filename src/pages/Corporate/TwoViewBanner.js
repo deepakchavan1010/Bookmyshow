@@ -7,7 +7,7 @@ const TwoViewBanner = () => {
       title1: "WHAT'S IN IT FOR YOU",
       heading: "Brand Promotions",
       desc: ` Gifting entertainment is a fun way to push your brand’s message. And
-                    the ways you can use vouchers are endless.For example, upselling
+               the ways you can use vouchers are endless.For example, upselling
                     celebrity- endorsed products timed with a movie release`,
       btnText: "Promote your brand",
       imgPath: "steven-libralon.avif",

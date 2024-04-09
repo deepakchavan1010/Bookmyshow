@@ -8,7 +8,8 @@ import Desc from './Desc'
 import Campaigns from './Campaigns'
 import OurProducts from './OurProducts'
 import BulkBooking from './BulkBooking'
-
+import Tesimonials2 from './Tesimonials2'
+import Questions from './Questions'
 
 
 
@@ -25,6 +26,8 @@ const Corporate = () => {
        <Campaigns />  
        <OurProducts /> 
        <BulkBooking />
+       <Tesimonials2 />
+       <Questions />
        </div> 
     </div>
   )

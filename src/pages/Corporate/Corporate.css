@@ -67,14 +67,14 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
-
-
-
-.b_testimonials2 .b_img_box {
+.d_testimonials2 .d_img_box {
     width: 150px;
-    height: 150px;
+    height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+.d_para{
+    font-size: small;
 }

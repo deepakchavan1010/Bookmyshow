@@ -68,7 +68,7 @@ export const Header = () => {
                                 <NavLink to={"/offers"} ><span>Offers</span></NavLink>
                                 </li>
                                 <li>
-                                <NavLink to={"/git-card"} ><span>GiftCards</span></NavLink>
+                                <NavLink to={"/giftcards"} ><span>GiftCards</span></NavLink>
                                 </li>
                             </ul>
                         </div>

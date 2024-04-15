@@ -1,8 +1,14 @@
 import React from 'react'
 import "./MyCard.css"
+import { useNavigate } from "react-router-dom";
 export const MyCard = ({ src, movieName, title1,title2,description,language, }) => {
+    const navigate = useNavigate()
+    const redirectUrlHandler = () => {
+        navigate("/details")
+    }
+
     return (
-        <div>
+        <div onClick={ redirectUrlHandler} style={{ cursor: "pointer"}}>
             <div className="d_top">
                 <div className='d_movie_card'>
                     <img src={src} alt="" />

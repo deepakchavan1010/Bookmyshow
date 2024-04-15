@@ -38,7 +38,7 @@ const Tesimonials2 = () => {
                      
                        <div className="col-12 col-md-9 text-start border-start border-2">
                             <p className="d_h14">
-                                ““As a token of our appreciation to the prospects who visit our Holiday World, we offer them BMS vouchers. These vouchers helps us further reinforce our core thought of creating Magical Moments for them and instantly put a smile on their faces“”
+                                “As a token of our appreciation to the prospects who visit our Holiday World, we offer them BMS vouchers. These vouchers helps us further reinforce our core thought of creating Magical Moments for them and instantly put a smile on their faces”
                             </p>
                             <h6>
                             Abhijeet Ghosh <br /> Regional Marketing Manager<br />
@@ -57,7 +57,7 @@ const Tesimonials2 = () => {
                         </div>
                         <div className="col-12 col-md-9 text-start border-start border-2">
                             <p className="d_h14">
-                                ““Our association with BookMyShow has helped us reach out to specific set of consumers who have varied interests in Movies, Sports and Plays. We have been able to engage with our consumers by offering them tailor made promotions and delight them by bringing more value when they buy an HP product. We at HP, truly value this association and look forward to many such initiatives that benefit our consumers.“”
+                                “Our association with BookMyShow has helped us reach out to specific set of consumers who have varied interests in Movies, Sports and Plays. We have been able to engage with our consumers by offering them tailor made promotions and delight them by bringing more value when they buy an HP product. We at HP, truly value this association and look forward to many such initiatives that benefit our consumers.”
                             </p>
                             <h6>
                             Lloyd Mathias<br />Head Marketing <br />
@@ -97,7 +97,7 @@ const Tesimonials2 = () => {
                         </div>
                         <div className="col-12 col-md-9 text-start border-start border-2">
                             <p className="d_h14">
-                                "My experience of working with BMS Corporate Solutions team has been absolutely awesome. I really like the professionalism and biasedness for action that the team demonstrates. Team is extremely clear with their communication and maintain extreme transparency which is very important to build trust in any partnership””
+                                "My experience of working with BMS Corporate Solutions team has been absolutely awesome. I really like the professionalism and biasedness for action that the team demonstrates. Team is extremely clear with their communication and maintain extreme transparency which is very important to build trust in any partnership”
                             </p>
                             <h6>
                             Arun Garg <br />Head - Alliances & Partnerships<br />

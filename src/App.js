@@ -12,8 +12,8 @@ import { Activites } from "./pages/Activite/Activities";
 import { Shows } from "./pages/Shows/Shows";
 import Corporates from "./pages/Corporate/Corporate";
 import Details from "./pages/Details/Details";
-import GiftCards from "./pages/GiftCard/GiftCards";
 import { Offers } from "./pages/Offers/Offers";
+import { GiftCards } from "./pages/GiftCard/GiftCards";
 
 
 
